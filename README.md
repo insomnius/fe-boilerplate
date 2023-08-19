@@ -1,63 +1,28 @@
-# Nuxt 3 Minimal Starter
+# Insomnius - Frontend Boilerplate
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+This is my boilerplate which I used to built all of my website, including [insomnius.id](https://insomnius.id) and [insomnius.dev](https://insomnius.dev). This boilerplate is built using [Nuxt](https://nuxt.com/) and [Tailwind CSS](https://tailwindcss.com).
 
-## Setup
+## What's inside?
 
-Make sure to install the dependencies:
+1. [Nuxt](https://nuxt.com/) - The Vue.js Framework
+2. [Tailwind CSS](https://tailwindcss.com) - A utility-first CSS framework
+3. [Font awesome for vuejs](https://fontawesome.com/docs/web/use-with/vue/) - SVG icon library
 
-```bash
-# npm
-npm install
+## Prerequisites
 
-# pnpm
-pnpm install
+1. [yarn](https://yarnpkg.com/)
+2. [docker](https://www.docker.com/)
 
-# yarn
-yarn install
-```
+## How to run?
 
-## Development Server
+1. Clone this repository
+2. Install dependencies using `yarn`
+3. Use `yarn dev -o` to run the boilerplate
 
-Start the development server on `http://localhost:3000`:
+## How to build?
 
-```bash
-# npm
-npm run dev
+1. Use `docker build -t boilerplate .` to build the boilerplate into docker image
 
-# pnpm
-pnpm run dev
+## Important Notes
 
-# yarn
-yarn dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+1. Please adjust the nuxt.config.ts based on your needs.
