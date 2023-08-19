@@ -1,0 +1,14 @@
+version: '3'
+services:
+  boilerplate:
+    container_name: boilerplate
+    image: registry.gitlab.com/alianarib/boilerplate:${TAG} # change this with your image
+    restart: always
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "200k"
+        max-file: "10"
+        mode: non-blocking
+    ports:
+      - 6000:3000

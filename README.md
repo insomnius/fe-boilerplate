@@ -12,6 +12,7 @@ This is my boilerplate which I used to built all of my website, including [insom
 
 1. [yarn](https://yarnpkg.com/)
 2. [docker](https://www.docker.com/)
+3. docker compose plugin
 
 ## How to run?
 
